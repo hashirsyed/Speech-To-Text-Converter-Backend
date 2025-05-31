@@ -21,7 +21,7 @@ app.post("/transcribe", async (req, res) => {
       return res.json({ response: transcript.text|| "No response from model." });
   
     } catch (error) {
-      console.error("OpenAI API error:", error);
+      console.error("AssemblyAI API error:", error);
       res.status(500).json({ error: "OpenAI API error" });
     }
   });
