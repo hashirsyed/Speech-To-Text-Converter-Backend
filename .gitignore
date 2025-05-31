@@ -1,0 +1,5 @@
+# Ignore environment and credential files
+.env
+node_modules/
+credentials/
+
