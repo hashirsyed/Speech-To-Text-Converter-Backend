@@ -22,7 +22,7 @@ app.post("/transcribe", async (req, res) => {
   
     } catch (error) {
       console.error("AssemblyAI API error:", error);
-      res.status(500).json({ error: "OpenAI API error" });
+      res.status(500).json({ error: "AssemblyAI API error" });
     }
   });
   
